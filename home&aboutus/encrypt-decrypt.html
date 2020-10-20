@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Encryption/Decryption</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+		<link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+		<link href="assets/cssforindex/style.css" rel="stylesheet" />
+		<link href="css/style2.css" rel="stylesheet" />
+		<script>(
+			function(w, d) 
+			{ 
+			w.CollectId = "5f87ee645e14474e07fc4438"; 
+			var h = d.head || d.getElementsByTagName("head")[0]; 
+			var s = d.createElement("script"); 
+			s.setAttribute("type", "text/javascript"); 
+			s.async=true;
+			 s.setAttribute("src", "https://collectcdn.com/launcher.js");
+			 h.appendChild(s); })
+			(window, document);
+			</script>
+			<script>
+				function alerting(){
+				  alert("⭐ Please checkout the Home page to watch the small animation video for better understanding");
+				}
+			  </script>
+
+	</head>
+
+	<body>
+        <header>
+    <div id="header-container">
+       <div class="col-3">
+        <img src="IMG/logo5.PNG" height="80" width="160">
+        </div>
+       <div class="col-4">
+        <nav>
+			<ul class="menu">
+			 <a href="/home&aboutus/home.html" style="text-decoration: none"><li> Home </li></a>
+			 <a href="/home&aboutus/practice.html" style="text-decoration: none"><li> Practice </li></a>
+			 <a href="/home&aboutus/encrypt-decrypt.html" style="text-decoration: none"><li style="color: rgb(252, 206, 4);"> Encryption/Decryption </li></a>
+			 <a href="/home&aboutus/aboutus.html" style="text-decoration: none"><li> About Us </li></a>
+			 </ul>
+			</nav>
+        </div>
+        <div class="col-5">
+        <a href=""  onclick="alerting()" class="getStartedBIN" style="color: white;">Why Use Coded The Doc?</a>
+        </div>
+       </div>
+    </header>
+
+		<a class="back"></a>
+
+		<div id="stage">
+
+			<div id="step1">
+				<div class="content">
+					<h1>🕵️ What do you want to do with your file? 🕵️‍♀️</h1>
+					<a class="button encrypt green">Encrypt the file 🔒</a>
+					<a class="button decrypt magenta">Decrypt the file 🔓</a>
+				</div>
+			</div>
+
+			<div id="step2">
+
+				<div class="content if-encrypt">
+					<h1>Choose a file you want to encrypt 🔒</h1>
+					<h2>Feel free to upload your file. Your data is safe as it's not saved anywhere 😊</h2>
+					<a class="button browse blue">Browse 📁</a>
+
+					<input type="file" id="encrypt-input" />
+				</div>
+
+				<div class="content if-decrypt">
+					<h1>Choose a file you want to decrypt 🔓</h1>
+					<h2>Upload only files encrypted by this application 👽</h2>
+					<a class="button browse blue">Browse 📁</a>
+
+					<input type="file" id="decrypt-input" />
+				</div>
+
+			</div>
+
+			<div id="step3">
+
+				<div class="content if-encrypt">
+					<h1>Enter a password 🤫</h1>
+					<h2>This password serves as an encryption key. Write it down ✍🏻 or remember it 🤔💭💡! You can't decrypt the file without it 😟</h2>
+
+					<input type="password" />
+					<a class="button process red">Encrypt 🔒</a>
+				</div>
+
+				<div class="content if-decrypt">
+					<h1>Enter a password 🤫</h1>
+					<h2>Enter the same password that was used to encrypt the file without which it cannot be decrypted 😯</h2>
+
+					<input type="password" />
+					<a class="button process red">Decrypt 🔓</a>
+				</div>
+
+			</div>
+
+			<div id="step4">
+
+				<div class="content">
+					<h1>Hurray! Your file is ready to download 💃🕺</h1>
+					<a class="button download green">Download 📥</a>
+				</div>
+
+			</div>
+		</div>
+		<div>
+			<footer id="for-copyright-ed" style="color: black;">
+			  Copyright &copy 2020
+			</footer>
+		  </div>
+
+	</body>
+
+	<!-- Include the AES algorithm of the crypto library -->
+	<script src="assets/js/aes.js"></script>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</html>

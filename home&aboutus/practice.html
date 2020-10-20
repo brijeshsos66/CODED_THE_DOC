@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset ="utf-8">
+    <title> Practice </title>
+    <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script>function encrypt(){
+            
+         var encrypted = CryptoJS.AES.encrypt(document.getElementById("text").value, document.getElementById("pass").value);   
+            document.getElementById("result").innerHTML = encrypted;
+            document.getElementById("decrypted").innerHTML = '';
+        }        
+        
+        function decrypt(){
+         var decrypted = CryptoJS.AES.decrypt(document.getElementById("secret").value, document.getElementById("pass").value).toString(CryptoJS.enc.Utf8);
+            document.getElementById("decrypted").innerHTML = decrypted;
+            document.getElementById("result").innerHTML = '';
+        }
+    </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("pass");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        <script>
+          function alerting(){
+            alert("⭐ Please checkout the Home page to watch the small animation video for better understanding");
+          }
+          </script>
+    <script>(
+function(w, d) 
+{ 
+w.CollectId = "5f87ee645e14474e07fc4438"; 
+var h = d.head || d.getElementsByTagName("head")[0]; 
+var s = d.createElement("script"); 
+s.setAttribute("type", "text/javascript"); 
+s.async=true;
+ s.setAttribute("src", "https://collectcdn.com/launcher.js");
+ h.appendChild(s); })
+(window, document);
+</script>
+</head>
+<body>
+   <header>
+    <div id="header-container">
+       <div class="col-3">
+        <img src="IMG/logo5.PNG" height="80" width="160">
+        </div>
+       <div class="col-4">
+        <nav>
+          <ul class="menu">
+           <a href="/home&aboutus/home.html" style="text-decoration: none"><li> Home </li></a>
+           <a href="/home&aboutus/practice.html" style="text-decoration: none"><li style="color: rgb(252, 206, 4);"> Practice </li></a>
+           <a href="/home&aboutus/encrypt-decrypt.html" style="text-decoration: none"><li> Encryption/Decryption </li></a>
+           <a href="/home&aboutus/aboutus.html" style="text-decoration: none"><li> About Us </li></a>
+           </ul>
+          </nav>
+        </div>
+        <div class="col-3">
+        <a href=""  onclick="alerting()" class="getStartedBIN">Why To Use Coded The Doc?</a>
+        </div>
+       </div>
+    </header>
+    <div class="main-container">
+        <div id="top-section-main">
+            <div id="top-section-content">
+            <h1 style="color: rgb(217, 223, 223); font-size: 28px;">Encryption/Decryption Using AES On A Plain Text 📝</h1>
+            <p style="text-align: center; font-size: 23px; color: rgb(55, 233, 233);"> PRACTICE 🎯</p>
+     <div class="main-form">
+    <br><h4>ENTER SOME TEXT: <input id='text' type='text' placeholder='Enter some text to see the process🔮' style="width: 738px;"/>
+
+    <br><br>ENTER PASSWORD: <input id='pass' type='password' placeholder='Enter password🤫' style="width: 740px;"/>
+    <input type="checkbox"  id="myCheckbox1" onclick="myFunction()" style="width:40px; height:40px; position: fixed;">
+    <label for="myCheckbox1" style="position: fixed;"><img src="./IMG/eye.png" /></label>
+
+  
+         <br><br><button onclick="encrypt()" class ="B" style="width: 900px; padding-top: 12px; padding-bottom: 12px;"><b>ENCRYPT 🔒</b></button>
+
+    <br><br>RESULT 🛡️<br><span id='result'></span>
+
+    <br><br>SECRET KEY 🔑 <input id='secret' type='text' placeholder='Enter the Result✨' style="width: 882px;"/>
+    
+    <br><br><button onclick="decrypt()" class ="B" style="width: 900px;  padding-top: 12px; padding-bottom: 12px;"><b>DECRYPT 🔓</b></button>
+
+    <br><br>DECODED TEXT 🌟 <br><span id="decrypted"></span><br></h4>
+</div>
+           
+                
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer id="for-copyright-practice">
+          Copyright &copy 2020
+        </footer>
+      </div>
+</body>
+</html>

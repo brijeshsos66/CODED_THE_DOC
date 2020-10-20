@@ -1,0 +1,121 @@
+header
+{
+    height: 80px;
+    background-color: white;
+}
+#header-container
+{
+    width: 80%;
+    margin: auto;
+}
+.col-3
+{
+    width: 20%;
+    float: left;
+}
+.col-4
+{
+    width: 60%;
+    float: left;
+}
+body{
+    margin: 0;
+}
+.menu li
+{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.3em;
+    color: cadetblue;
+    padding-right: 30px;
+}
+.menu
+{
+    margin-top: 26px;
+}
+.getStartedBIN
+{
+    background-color: deepskyblue;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    float:right;
+}
+#top-section-main
+{
+    background-image: url(/home&aboutus/IMG/purple.jpg);
+    height: 640px;
+    background-repeat: repeat;
+    border: none;
+}
+#top-section-content
+{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1
+{
+    font-size: 1.8em;
+    font-weight: 300;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.main-form h4
+{
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+    color: aliceblue;
+    text-align: center;
+}
+.main-form input
+{
+    margin:0;
+    width: 30px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;
+}
+
+.main-form{
+   background-image: url(/home&aboutus/IMG/form.jpg);
+    height: 450px;
+    padding-left: 32px;
+}
+
+.main-form .B:hover{
+    background-color: rgb(156, 229, 241);
+}
+
+.menu li:hover{
+    color: rgb(252, 206, 4);
+}
+
+#for-copyright-practice{
+    clear: both;
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+    width: 100%;
+    position: fixed; 
+    text-decoration-color: rgb(0, 0, 0);
+    background-color: rgb(205, 255, 236);
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
