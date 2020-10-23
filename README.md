@@ -23,7 +23,6 @@
 🌟 ABOUT US<br>
 <br>
 <br>
-
 🤦‍♂️ Limitation<br>
 ☢️ File can shouldn't be more than 1MB.<br>
 <br>
