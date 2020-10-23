@@ -39,6 +39,6 @@
 <br>
 💖CREATORS<br>
 <strong>
-@Brijesh Kumar
-@Ankita Khan
-  </strong>
+<a href = "https://github.com/brijeshsos66">Brijesh Kumar</a>
+<a href = "https://github.com/ANKITAKHAN">Ankita Khan</a>
+</strong>
