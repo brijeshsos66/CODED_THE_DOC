@@ -24,7 +24,7 @@
 <br>
 <br>
 🤦‍♂️ Limitation<br>
-☢️ File can shouldn't be more than 1MB.<br>
+☢️ File shouldn't be more than 1MB.<br>
 <br>
 <br>
 🖼️ SNAPSHOTS<br><br>
