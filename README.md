@@ -3,7 +3,7 @@
 ✨ It is a simple application to encrypt any document or any text using AES algorithm.<br>
 ✨ Web application with upload and download features of document for encryption and decryption using secret key.<br>
 ✨ It also has an live chatbot🤖 to solve common human queries.<br>
-✨ Link to the video demo: https://drive.google.com/file/d/16x7n06uz0IGArzPUqxTLOBABnS06YNAc/view?usp=sharing <br>
+✨ Link to the video demo: https://drive.google.com/file/d/16x7n06uz0IGArzPUqxTLOBABnS06YNAc/view?usp=sharing<br>
 <br>
 
 <b>☀️ Technologies Used</b><br>
